@@ -132,7 +132,7 @@ do
       --without-v4l2 \
       --without-vosk \
       --with-vulkan \
-      --witht-wayland \
+      --with-wayland \
       --with-xcomposite \
       --with-xfixes \
       --without-xinerama \
@@ -141,7 +141,8 @@ do
       --without-xshape \
       --without-xshm \
       --without-xxf86vm
-
+fi
+if [ "$arg" == "--patch" ]
     echo "Applying patches..."
 
     PATCHES=(
