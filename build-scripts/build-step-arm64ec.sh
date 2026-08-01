@@ -98,7 +98,7 @@ do
       --disable-amd_ags_x64 \
       --enable-wineandroid_drv=no \
       --disable-tests \
-      --with-alsa \
+      --without-alsa \
       --without-capi \
       --without-coreaudio \
       --without-cups \
@@ -114,7 +114,7 @@ do
       --without-gssapi \
       --with-gstreamer \
       --without-inotify \
-      --without-krb5 \
+      --with-krb5 \
       --without-netapi \
       --without-opencl \
       --with-opengl \
@@ -132,14 +132,14 @@ do
       --without-v4l2 \
       --without-vosk \
       --with-vulkan \
-      --without-wayland \
-      --without-xcomposite \
-      --without-xfixes \
+      --witht-wayland \
+      --with-xcomposite \
+      --with-xfixes \
       --without-xinerama \
-      --without-xrandr \
-      --without-xrender \
+      --with-xrandr \
+      --with-xrender \
       --without-xshape \
-      --with-xshm \
+      --without-xshm \
       --without-xxf86vm
 
     echo "Applying patches..."
